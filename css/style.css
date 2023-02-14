@@ -72,6 +72,11 @@
     line-height: 40px;
     border: solid white .0625rem;
     border-radius: .3125rem;
+    color: white;
+}
+.ms-plus:hover {
+    background-color: white;
+    color: #165bba;
 }
 .ms-badge-blue {
     background-color: #165bba;
@@ -81,9 +86,7 @@
     font-size: small;
 }
 /* cards */
-.ms-cards {
-    background-color: #ff8f00;
-}
+
 .ms-tab {
     font-size: 13px;
 }
