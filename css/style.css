@@ -80,6 +80,36 @@
 .fa-angles-right {
     font-size: small;
 }
+/* cards */
+.ms-cards {
+    background-color: #ff8f00;
+}
+.ms-tab {
+    font-size: 13px;
+}
+/* icone tabella 1 */
+.tab-name-icon {
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+}
+.tab-action-icon {
+    display: inline-block;
+    border: solid 1px grey;
+    width: 25px;
+    padding: 2px;
+    border-radius: 5px;
+    color: grey;
+    margin: 0 1px;
+}
+.tab-action-icon:hover {
+    color: white;
+    background-color: grey;
+    border: white;
+}
+/* icone tabella 1 */
 /* content>>>>>>>>>>>>>>>>>>> */
 
 /* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
