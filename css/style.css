@@ -65,12 +65,20 @@
 .ms-top-content {
     background-color: #1b72e8;
 }
+
 .ms-plus {
     width: 40px;
     height: 40px;
     line-height: 40px;
     border: solid white .0625rem;
     border-radius: .3125rem;
+}
+.ms-badge-blue {
+    background-color: #165bba;
+    margin: 13px;
+}
+.fa-angles-right {
+    font-size: small;
 }
 /* content>>>>>>>>>>>>>>>>>>> */
 
