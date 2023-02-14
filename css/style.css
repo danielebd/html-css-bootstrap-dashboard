@@ -25,16 +25,36 @@
     color: #ff8f00;
 }
 
+.ms-search-text {
+    font-size: .8rem;
+    flex-grow: 1;
+}
 /* HEADER >>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+/* sidebar>>>>>>>>>>>>>>>>>>> */
+
 .ms-sidebar {
     background-color: aquamarine;
+    height: calc(100vh - 4.375rem);
 }
+
+.ms-sidebar i {
+    color: white;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+/* sidebar>>>>>>>>>>>>>>>>>>> */
+
+
+/* content>>>>>>>>>>>>>>>>>>> */
+
 .ms-content {
     background-color:blanchedalmond;
 }
 
+/* content>>>>>>>>>>>>>>>>>>> */
 
 /* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
