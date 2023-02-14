@@ -36,16 +36,19 @@
 /* sidebar>>>>>>>>>>>>>>>>>>> */
 
 .ms-sidebar {
-    background-color: aquamarine;
+    background-color: #051e34;
     height: calc(100vh - 4.375rem);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .ms-sidebar i {
     color: white;
 }
-.dropdown-toggle::after {
-    display: none;
+.icon-side {
+    width: 20px;
+    text-align: center;
 }
+
 /* sidebar>>>>>>>>>>>>>>>>>>> */
 
 
