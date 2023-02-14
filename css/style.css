@@ -4,5 +4,37 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER >>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.ms-nav {
+    height: 4.375rem;
+
+}
+.logo-mob {
+    width: 3.125rem;
+}
+.logo {
+    width: 10rem;
+}
+.icon-top {
+    
+}
+.icon-top button i {
+    color: #ff8f00;
 }
 
+/* HEADER >>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.ms-sidebar {
+    background-color: aquamarine;
+}
+.ms-content {
+    background-color:blanchedalmond;
+}
+
+
+/* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
