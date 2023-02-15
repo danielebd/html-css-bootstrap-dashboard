@@ -90,6 +90,9 @@
 .ms-tab {
     font-size: 13px;
 }
+.ms-font-size {
+    font-size: 14px;
+}
 /* icone tabella 1 */
 .tab-name-icon {
     display: inline-block;
