@@ -149,5 +149,12 @@
 }
 /* icone tabella 1 */
 /* content>>>>>>>>>>>>>>>>>>> */
-
+.offcanvas-end {
+    width: 100% !important; 
+}
+@media screen and (min-width: 45rem) {
+    .offcanvas-end {
+        width: 900px !important;
+    }
+}
 /* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
