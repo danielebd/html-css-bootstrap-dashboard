@@ -157,4 +157,9 @@
         width: 900px !important;
     }
 }
+
+.form-control:focus {
+    border-color: lightgray !important;
+    box-shadow: 0 0 0 0 white !important;
+}
 /* MAIN >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
