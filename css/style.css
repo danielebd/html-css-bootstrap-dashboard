@@ -85,6 +85,7 @@
 .fa-angles-right {
     font-size: small;
 }
+
 /* cards */
 
 .ms-tab {
@@ -92,6 +93,37 @@
 }
 .ms-font-size {
     font-size: 14px;
+}
+.ms-accordion-button {
+    border-color: white;
+    box-shadow: 0 0 0 0 white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    background-color: white;
+}
+
+.ms-accordion-button:not(.collapsed)::after {
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+.ms-accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
 }
 /* icone tabella 1 */
 .tab-name-icon {
